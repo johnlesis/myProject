@@ -1,0 +1,14 @@
+{
+    "name": "user/myproject",
+    "description": "making some php project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "User\\Myproject\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4"
+    }
+}
